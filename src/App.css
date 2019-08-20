@@ -1,33 +1,125 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+html, body{
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: #343A40;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #343A40;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  background-color: #FFF;
+  width: 20rem;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-app{
+  background-color: #007BFF;
+  text-align: center;
+  padding: 0.5rem 0;
+  color: #FFF;
+}
+
+.body-app{
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.container-laps{
+  margin-bottom: 1rem;
+}
+
+.text-laps{
+  font-size: 6rem;
+  background-color: #343A40;
+  font-weight: 700;
+  width: 80%;
+  color: #FFF;
+  margin: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.btn-laps{
+  margin-bottom: 2rem;
+}
+
+.btn-plus{
+  width: 35%;
+  height: 4.5rem;
+  background-color: #9E9E9E;
+  border: none;
+  border-radius: 2px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-right: 5%;
+}
+
+.btn-plus:hover{
+  background-color: #607D8B;
+}
+
+.btn-less{
+  width: 35%;
+  height: 4.5rem;
+  background-color: #9E9E9E;
+  border: none;
+  border-radius: 2px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.btn-less:hover{
+  background-color: #607D8B;
+}
+
+.time-laps{
+  margin-bottom: 2rem;
+}
+
+.btn-options{
+  margin-bottom: 1rem;
+}
+
+.btn-start{
+  width: 35%;
+  height: 3rem;
+  background-color: #009688;
+  border: none;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-right: 5%;
+}
+
+.btn-start:hover{
+  background-color: #00BBAA;
+}
+
+.btn-restart{
+  width: 35%;
+  height: 3rem;
+  background-color: #FF5722;
+  border: none;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.btn-restart:hover{
+  background-color: #FF6C3E;
 }
